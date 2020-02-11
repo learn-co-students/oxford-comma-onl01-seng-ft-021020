@@ -2,7 +2,7 @@ def oxford_comma(array)
   comma_string = ""
 
   if array.length == 1
-    comma_string << array[0]
+    comma_string << array.join
 
   elsif array.length == 2
     comma_string << array.join(" and ")
